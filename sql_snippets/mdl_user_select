@@ -1,0 +1,4 @@
+--Query mdl_user table for active users
+SELECT COUNT(u.id)
+FROM mdl_user AS u
+WHERE u.deleted = 0
