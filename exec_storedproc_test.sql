@@ -1,0 +1,3 @@
+-- Run a Stored procedure from inside the Configurable Reports plugin.
+-- Just testing...
+EXEC dbo.spMDLFitAndProper_v1 @PartyID = '1219657', @ProfileFieldID = 2;
